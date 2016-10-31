@@ -7,3 +7,13 @@ robots.txt
 /COPYRIGHT.txt
 /INSTALL.txt
 /LICENSE.txt
+
+
+
+/.DS_Store
+	/.csslintrc
+	/.editorconfig
+	/.eslintignore
+	/.eslintrc
+	/.gitattributes
+	/.htaccess
