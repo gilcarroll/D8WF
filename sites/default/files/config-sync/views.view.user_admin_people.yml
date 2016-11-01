@@ -1,4 +1,4 @@
-uuid: 957ba880-c83a-4632-a397-f625ddb40ea4
+uuid: 94a2737e-f3f0-43f9-bb90-14ff92a87591
 langcode: en
 status: true
 dependencies:
@@ -199,7 +199,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Username
+          label: Usernamee
           exclude: false
           alter:
             alter_text: false
@@ -240,8 +240,21 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          plugin_id: field
+          click_sort_column: value
           type: user_name
+          settings:
+            link_to_entity: true
+          group_column: value
+          group_columns: {  }
+          group_rows: true
+          delta_limit: 0
+          delta_offset: 0
+          delta_reversed: false
+          delta_first_last: false
+          multi_type: separator
+          separator: ', '
+          field_api_classes: false
+          plugin_id: field
           entity_type: user
           entity_field: name
         status:
